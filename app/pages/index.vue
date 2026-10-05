@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" setup>
-const { data } = await useFetch('/api/health');
+const { data } = await useFetch("/api/health");
 </script>

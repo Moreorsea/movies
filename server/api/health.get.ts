@@ -1,7 +1,7 @@
-import { HealthResponse } from '../../shared/types/api';
+import type { HealthResponse } from "../../shared/types/api";
 
-export default defineEventHandler((event): HealthResponse => {
-  return {
-    hello: 'world'
-  }
-})
+export default defineEventHandler((_event): HealthResponse => {
+	return {
+		hello: "world",
+	};
+});
