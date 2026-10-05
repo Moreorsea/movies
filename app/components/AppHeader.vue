@@ -22,9 +22,9 @@
 				variant="accent"
 				size="sm"
 				type="button"
-				@click="navigateTo('/login')"
+				@click="navigateTo(accountAction.to)"
 			>
-				Войти
+				{{ accountAction.label }}
 			</UIButton>
 		</nav>
 	</header>
@@ -39,6 +39,12 @@ const navItems = [
 	{ label: "Поиск", to: "/search" },
 	{ label: "Мой список", to: "/my/list" },
 ] as const;
+
+const accountAction = computed(() =>
+	route.path.startsWith("/my")
+		? { label: "Аккаунт", to: "/account" }
+		: { label: "Войти", to: "/login" },
+);
 
 function isActive(path: string) {
 	if (path === "/") {
