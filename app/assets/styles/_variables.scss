@@ -1,0 +1,60 @@
+// Design tokens — «Что посмотреть»
+// SCSS vars for stylesheets; CSS custom props mirrored on :root in main.scss
+
+// —— Color ——
+$color-bg: #07080a;
+$color-bg-elev: #101216;
+$color-bg-page: #050506;
+$color-text: #f4f1ea;
+$color-muted: rgba(244, 241, 234, 0.62);
+$color-line: rgba(255, 255, 255, 0.08);
+$color-accent: #ff4d2e;
+$color-accent-2: #f6c945;
+$color-ok: #3dcf8e;
+$color-danger: #ff5f57;
+$color-ink: #0b0b0b;
+$color-on-accent: #ffffff;
+
+// —— Typography ——
+$font-display: "Syne", sans-serif;
+$font-body: "Instrument Serif", serif;
+
+$font-size-xs: 0.72rem;
+$font-size-sm: 0.78rem;
+$font-size-md: 0.9rem;
+$font-size-lg: 1.15rem;
+$font-size-xl: 1.35rem;
+
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+$letter-tight: -0.04em;
+$letter-wide: 0.14em;
+
+// —— Radius ——
+$radius-sm: 0.85rem;
+$radius-md: 1.25rem;
+$radius-lg: 1.5rem;
+$radius-pill: 999px;
+
+// —— Spacing ——
+$space-1: 0.25rem; // 4px
+$space-2: 0.5rem; // 8px
+$space-3: 0.75rem; // 12px
+$space-4: 1rem; // 16px
+$space-5: 1.5rem; // 24px
+$space-6: 2rem; // 32px
+$space-7: 3rem; // 48px
+
+// —— Layout ——
+$shell: 1180px;
+$shell-kit: 1100px;
+
+// —— Motion ——
+$ease-default: 0.2s ease;
+$ease-rise: 0.45s ease;
+
+// —— Shadows ——
+$shadow-frame: 0 30px 80px rgba(0, 0, 0, 0.45);

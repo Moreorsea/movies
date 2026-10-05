@@ -1,75 +1,41 @@
-# Nuxt Minimal Starter
+# Movie
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 4 + Vue 3 + TypeScript. Линтинг и форматирование — Biome.
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Development
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Сервер: `http://localhost:3000`
 
-Build the application for production:
+## Scripts
 
-```bash
-# npm
-npm run build
+| Script | Описание |
+| --- | --- |
+| `npm run dev` | Dev-сервер |
+| `npm run build` | Production-сборка |
+| `npm run preview` | Превью production-сборки |
+| `npm run generate` | Статическая генерация |
+| `npm run typecheck` | Проверка типов (`vue-tsc`) |
+| `npm run check` | Biome: lint + format check |
+| `npm run check:fix` | Biome: автофикс |
+| `npm run lint` | Только lint |
+| `npm run lint:fix` | Lint с автофиксом |
+| `npm run format` | Проверка форматирования |
+| `npm run format:fix` | Форматирование с записью |
 
-# pnpm
-pnpm build
+## Stack
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Nuxt** `^4.5`
+- **Vue** `^3.5`
+- **TypeScript** `~5.9` (не 7.x — `vue-tsc` пока несовместим)
+- **vue-tsc** `^3.3`
+- **Biome** `2.5`

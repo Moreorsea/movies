@@ -1,0 +1,34 @@
+// Variables come from vite `additionalData` (see nuxt.config.ts)
+@use "reset";
+
+:root {
+	--bg: #{$color-bg};
+	--bg-elev: #{$color-bg-elev};
+	--bg-page: #{$color-bg-page};
+	--text: #{$color-text};
+	--muted: #{$color-muted};
+	--line: #{$color-line};
+	--accent: #{$color-accent};
+	--accent-2: #{$color-accent-2};
+	--ok: #{$color-ok};
+	--danger: #{$color-danger};
+	--ink: #{$color-ink};
+
+	--font-display: #{$font-display};
+	--font-body: #{$font-body};
+
+	--radius-sm: #{$radius-sm};
+	--radius: #{$radius-md};
+	--radius-lg: #{$radius-lg};
+	--radius-pill: #{$radius-pill};
+
+	--space-1: #{$space-1};
+	--space-2: #{$space-2};
+	--space-3: #{$space-3};
+	--space-4: #{$space-4};
+	--space-5: #{$space-5};
+	--space-6: #{$space-6};
+	--space-7: #{$space-7};
+
+	--shell: #{$shell};
+}
